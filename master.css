@@ -1,5 +1,6 @@
-body {
+* {
     font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
 }
 
 .banner {
@@ -82,3 +83,22 @@ nav a {
     text-decoration: none;
     align-content: right;
 }
+
+/* skills bar */
+.skill-box .container {
+    width: 100%; /* Full Width */
+    background-color: #ddd; /* Grey Background */
+}
+
+.skills {
+    text-align: right; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+}
+
+.html {width: 80%; background-color: #e34c26; color: #ebebeb}
+.python {width: 75%; background-color: #306998; color: #646464}
+.css {width: 65%; background-color: #264de4; color: #ebebeb}
+.javascript {width: 60%; background-color: #f0db4f; color: #323330}
+.php {width: 40%; background-color: #787cb5; color: #ffffff}
