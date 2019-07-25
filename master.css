@@ -1,0 +1,74 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.img {
+    left: 50%;
+    margin: auto;
+}
+
+/* Parent Navbar */
+nav {
+    overflow: hidden;
+    background-color: #0c0f0a
+}
+
+/* Nav Links */
+nav a {
+    float: left;
+    font-size: 16px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Subnav menu */
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    color: whitesmoke;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* Add a background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: #24a8d8;
+}
+
+/* Style the subnav conent - positioned absolute */
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #24a8d8;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+    background-color: #fbff12;
+    color: #0c0f0a;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+    display: block;
+}

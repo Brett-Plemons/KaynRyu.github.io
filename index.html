@@ -9,6 +9,8 @@
         <title>Data Geek Like Me</title>
         <meta name="description" content="Portfolio v0.1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/7cb8894d86.js"></script>
         <link rel="stylesheet" href="master.css">
     </head>
     <body>
@@ -16,23 +18,22 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
-        <h1>Data Geek Like Me</h1>
+        <img class="Banner" src="./img/BannerLogo.png" alt="DGLM">
 
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li>
-                    <ul>
-                        <li><a href="react.html">Reactjs</a></li>
-                        <li><a href="angular.html">Angularjs</a></li>
-                        <li><a href="apps.html">Web Apps</a></li>
-                        <li><a href="animations.html">Animations</a></li>
-                    </ul>
-                </li>
-                <li><a href="cv.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <div class="subnav">
+                <button class="subnavbtn">Projects<i class="fas fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a href="react.html">Reactjs</a>
+                    <a href="angular.html">Angularjs</a>
+                    <a href="apps.html">Web Apps</a>
+                    <a href="animations.html">Animations</a>
+                </div>
+            </div>
+            <a href="cv.html">Resume</a>
+            <a href="contact.html">Contact</a>
         </nav>
 
         <div class="skill-box">
