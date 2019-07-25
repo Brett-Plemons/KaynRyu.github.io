@@ -60,7 +60,7 @@ nav a {
 /* Style the subnav links */
 .subnav-content a {
     float: left;
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -73,4 +73,12 @@ nav a {
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
     display: block;
+}
+
+/* style for the social icons */
+.left-nav a {
+    float: left;
+    color: whitesmoke;
+    text-decoration: none;
+    align-content: right;
 }
