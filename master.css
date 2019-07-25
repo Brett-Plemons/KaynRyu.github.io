@@ -2,9 +2,11 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.img {
-    left: 50%;
-    margin: auto;
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /* Parent Navbar */
